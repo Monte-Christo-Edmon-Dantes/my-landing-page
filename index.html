@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 헤더 -->
+  <header>
+    <div class="logo">✨ MySite</div>
+    <nav>
+      <ul>
+        <li><a href="#home">홈</a></li>
+        <li><a href="#about">소개</a></li>
+        <li><a href="#services">서비스</a></li>
+        <li><a href="#contact">문의</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 히어로 섹션 -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>환영합니다 🚀</h1>
+      <p>세련된 랜딩 페이지, 지금 바로 시작하세요!</p>
+      <a href="#services" class="btn">시작하기</a>
+    </div>
+  </section>
+
+  <!-- 소개 -->
+  <section id="about">
+    <h2>소개</h2>
+    <p>이 페이지는 <b>무료 도메인 연결</b>과 <b>간단한 코드</b>로 제작된 랜딩 페이지 예시입니다.</p>
+  </section>
+
+  <!-- 서비스 -->
+  <section id="services" class="cards">
+    <h2>서비스</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>웹사이트 제작</h3>
+        <p>HTML/CSS/JS로 빠르게 제작합니다.</p>
+      </div>
+      <div class="card">
+        <h3>블로그 운영</h3>
+        <p>간단한 블로그 형태도 가능합니다.</p>
+      </div>
+      <div class="card">
+        <h3>디자인 컨설팅</h3>
+        <p>깔끔한 UI/UX를 설계해드립니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 문의 -->
+  <section id="contact">
+    <h2>문의하기</h2>
+    <form>
+      <input type="text" placeholder="이름" required>
+      <input type="email" placeholder="이메일" required>
+      <textarea placeholder="메시지" required></textarea>
+      <button type="submit">보내기</button>
+    </form>
+  </section>
+
+  <!-- 푸터 -->
+  <footer>
+    <p>© 2025 MySite. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

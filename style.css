@@ -113,3 +113,45 @@ footer {
   text-align: center;
   padding: 15px;
 }
+/* 🔥 히어로 리디자인 */
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* 🔥 고급 느낌 핵심 */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+/* 텍스트 */
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+/* 타이포 (중요) */
+.hero h1 {
+  font-size: 56px;
+  letter-spacing: 10px;
+  font-weight: 500;
+}
+
+.hero p {
+  margin-top: 20px;
+  font-size: 16px;
+  letter-spacing: 3px;
+  opacity: 0.9;
+}

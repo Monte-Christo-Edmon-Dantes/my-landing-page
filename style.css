@@ -126,6 +126,10 @@ footer {
   background-repeat: no-repeat;
 }
 
+.hero::before {
+  pointer-events: none; /* 🔥 이거 추가 */
+}
+
 /* 🔥 고급 느낌 핵심 */
 .hero::before {
   content: "";

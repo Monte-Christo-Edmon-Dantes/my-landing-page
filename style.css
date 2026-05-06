@@ -37,23 +37,26 @@ header nav a:hover { color: #f39c12; }
 
 /* 히어로 섹션 */
 .hero {
-  position: relative;
+  background: url("https://picsum.photos/1600/900?blur") no-repeat center center/cover;
   height: 100vh;
-
-  background: linear-gradient(
-    rgba(0,0,0,0.3),
-    rgba(0,0,0,0.3)
-  ),
-  url("https://raw.githubusercontent.com/Monte-Christo-Edmon-Dantes/my-landing-page/main/beauty_mates_logo.png");
-
-  background-size: cover;
-  background-position: center;
-
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   text-align: center;
+  color: #fff;
+  padding: 0 20px;
 }
+.hero-text h1 { font-size: 48px; margin-bottom: 15px; }
+.hero-text p { font-size: 20px; margin-bottom: 25px; }
+.btn {
+  background: #f39c12;
+  padding: 12px 25px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn:hover { background: #e67e22; }
 
 /* 섹션 */
 section {
@@ -109,17 +112,4 @@ footer {
   color: #fff;
   text-align: center;
   padding: 15px;
-}
-/* 🔥 히어로 리디자인 */
-.hero {
-  position: relative;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }

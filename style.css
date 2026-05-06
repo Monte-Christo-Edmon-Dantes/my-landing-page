@@ -130,14 +130,6 @@ footer {
   pointer-events: none; /* 🔥 이거 추가 */
 }
 
-/* 🔥 고급 느낌 핵심 */
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.35);
-}
-
 /* 텍스트 */
 .hero-content {
   position: relative;
